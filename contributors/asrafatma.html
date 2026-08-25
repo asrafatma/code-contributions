@@ -14,13 +14,25 @@
             padding: 0 1rem;
         }
 
+        .profile-link {
+            text-decoration: none;
+            color: inherit;
+            display: inline-block;
+            transition: color 0.2s ease;
+        }
+
+        .profile-link:hover {
+            color: #0969da;
+            text-decoration: underline;
+        }
+
         h3 {
             font-size: 1.5rem;
             margin-bottom: 0.25rem;
         }
 
         p {
-            color: #57609a;
+            color: #57606a;
             margin-bottom: 1.5rem;
         }
 
@@ -61,7 +73,16 @@
 </head>
 <body>
     <article>
-        <h3>asrafatma</h3>
+        <h3>
+            <a 
+                class="profile-link" 
+                href="https://github.com/asrafatma" 
+                target="_blank" 
+                rel="noopener noreferrer"
+            >
+                asrafatma
+            </a>
+        </h3>
         <p>Software Engineering Student passionate about building clean web applications, exploring open-source software, and solving real-world problems through code.</p>
         
         <h4>Programming languages I use</h4>
